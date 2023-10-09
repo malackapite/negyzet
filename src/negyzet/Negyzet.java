@@ -37,4 +37,10 @@ public class Negyzet {
     public Negyzet() {
         this(1, new Koordinata(0,0));
     } 
+
+    @Override
+    public String toString() {
+        return "Negyzet{" + "a=" + a + ", terulet=" + terulet + ", koordinata=" + koordinata + '}';
+    }
+    
 }
