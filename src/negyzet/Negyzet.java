@@ -1,10 +1,14 @@
-
 package negyzet;
 
 public class Negyzet {
-    private double a, terulet;
+    private double a;
     private Koordinata koordinata;
 
+    public Negyzet(double a, Koordinata koordinata) {
+        this.a = a;
+        this.koordinata = koordinata;
+    }
+    
     public void setKoordinata(Koordinata koordinata) {
         this.koordinata = koordinata;
     }

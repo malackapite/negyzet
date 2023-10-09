@@ -3,6 +3,11 @@ package negyzet;
 public class Koordinata {
     private double x,y;
 
+    public Koordinata(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
     public void setX(double x) {
         this.x = x;
     }
