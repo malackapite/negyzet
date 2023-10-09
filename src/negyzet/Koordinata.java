@@ -18,4 +18,9 @@ public class Koordinata {
     public double getY() {
         return y;
     }
+
+    public Koordinata(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
 }

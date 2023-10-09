@@ -24,4 +24,17 @@ public class Negyzet {
     public double getTerulet() {
         return a*a;
     }
+
+    public Negyzet(double a, Koordinata koordinata) {
+        this.a = a;
+        this.koordinata = koordinata;
+    }
+
+    public Negyzet(double a) {
+        this(a, new Koordinata(0,0));
+    }    
+    
+    public Negyzet() {
+        this(1, new Koordinata(0,0));
+    } 
 }
