@@ -7,5 +7,7 @@ public class View {
          System.out.println("Terület: "+ negyzet.getTerulet());
          System.out.println("X: "+ negyzet.getKoordinata().getX());
          System.out.println("Y: "+ negyzet.getKoordinata().getY());
+         Negyzet negyzet2 = new Negyzet(1.1);
+         System.out.println(negyzet.equals(negyzet2));
     }
 }
