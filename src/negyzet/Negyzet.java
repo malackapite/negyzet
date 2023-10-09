@@ -45,7 +45,8 @@ public class Negyzet {
 
     @Override
     public int hashCode() {
-        int hash = 7;
+        int hash = 5;
+        hash = 83 * hash + (int) (Double.doubleToLongBits(this.a) ^ (Double.doubleToLongBits(this.a) >>> 32));
         return hash;
     }
 
